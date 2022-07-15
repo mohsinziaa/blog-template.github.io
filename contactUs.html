@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myBlog</title>
+    <link rel="shortcut icon" href="images/myLogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/contactUs.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="nav-left">
+        <span>myBlog</span>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutUs.html">About</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <form action="searchResults.html" method="get">
+          <input
+            type="text"
+            placeholder="Search Here"
+            name="searchFor"
+            required
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </div>
+    <hr style="margin-top: 0px" />
+
+    <div class="formBox">
+      <form action="#" method="get">
+        <h1>Contact Form</h1>
+        <div class="formItem">
+          <input type="text" placeholder="Enter Your Name" />
+        </div>
+        <div class="formItem">
+          <input type="email" placeholder="Enter Your Email" />
+        </div>
+        <div class="formItem">
+          <input type="number" placeholder="Enter Your Contact Number" />
+        </div>
+        <div class="formItem">
+          <input type="date" style="text-transform: uppercase" />
+        </div>
+        <div class="formItem">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="7"
+            placeholder="Your Concerns Here....."
+          ></textarea>
+        </div>
+        <div class="formItem">
+          <button type="submit" onclick="reset()">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="footer">Copyright &copy; myBlog.com</div>
+  </body>
+</html>

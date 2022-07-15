@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Albert Sans", sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom right,
+    rgb(245, 230, 200) 0%,
+    rgb(191, 235, 250) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 80vw;
+  height: 100px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left span {
+  font-weight: bolder;
+  font-size: 30px;
+  position: relative;
+  bottom: 4px;
+  cursor: pointer;
+}
+
+.nav-left ul {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0px 25px;
+}
+
+.nav-left ul li a {
+  color: black;
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-left ul li a:hover {
+  color: #743030;
+}
+
+.nav-right input {
+  padding: 4px 6px;
+  font-size: 14px;
+  margin-right: 10px;
+  text-align: left;
+  padding-left: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 140px;
+  background: transparent;
+}
+
+.nav-right input::placeholder {
+  font-weight: 600;
+}
+
+.nav-right input:hover {
+  outline: #5e7572 solid 2px;
+  cursor: pointer;
+}
+
+.nav-right .btn {
+  padding: 3.5px 0px;
+  font-size: 14px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 90px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav-right .btn:hover {
+  font-weight: bold;
+  color: #743030;
+  outline: #5e7572 solid 2px;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  height: 700px;
+  max-width: 85vw;
+  margin: auto;
+}
+
+.content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.1rem;
+}
+
+.content img {
+  margin-left: 22px;
+  border: 2px solid black;
+  border-radius: 5%;
+  height: 400px;
+  width: 22vw;
+}
+
+.home-articles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.home-articles h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.article-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  width: 25%;
+}
+
+.article-box:hover {
+  transform: scale(1.01);
+}
+
+.article-box-image {
+  width: 100%;
+}
+.article-box-image img {
+  height: 235px;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 20px;
+  transition: 0.4s;
+  position: relative;
+  left: 11vw;
+}
+
+.social-links a i {
+  color: black;
+}
+
+.social-links a:hover {
+  transform: scale(1.5);
+}
+
+.article-box-text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.4;
+  font-size: 1rem;
+  position: relative;
+  left: 2vw;
+}
+
+.article-box-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-box-text h3:hover {
+  cursor: pointer;
+  color: #743030;
+}
+
+.article-box-text span {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#footer {
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#footer:hover {
+  color: #743030;
+}
+
+/* Utility Class */
+h1,
+h2,
+h3 {
+  font-family: "Albert Sans", sans-serif;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+hr {
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Albert Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    to bottom right,
+    rgb(245, 230, 200) 0%,
+    rgb(191, 235, 250) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 80vw;
+  height: 100px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left span {
+  font-weight: bolder;
+  font-size: 30px;
+  position: relative;
+  bottom: 4px;
+  cursor: pointer;
+}
+
+.nav-left ul {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0px 25px;
+}
+
+.nav-left ul li a {
+  color: black;
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-left ul li a:hover {
+  color: #743030;
+}
+
+.nav-right input {
+  padding: 4px 6px;
+  font-size: 14px;
+  margin-right: 10px;
+  text-align: left;
+  padding-left: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 140px;
+  background: transparent;
+}
+
+.nav-right input::placeholder {
+  font-weight: 600;
+}
+
+.nav-right input:hover {
+  outline: #5e7572 solid 2px;
+  cursor: pointer;
+}
+
+.nav-right .btn {
+  padding: 3.5px 0px;
+  font-size: 14px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 90px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav-right .btn:hover {
+  font-weight: bold;
+  color: #743030;
+  outline: #5e7572 solid 2px;
+}
+
+.formBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.formBox h1 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.formItem input,
+textarea {
+  width: 25vw;
+  padding: 7px 10px;
+  margin: 7px 0px;
+  border: 2px solid;
+  border-radius: 10px;
+  background: none;
+  font-weight: 100;
+}
+
+.formItem input::placeholder {
+  text-transform: uppercase;
+}
+
+.formItem textarea::placeholder {
+  text-transform: uppercase;
+}
+
+.formItem button {
+  padding: 3.5px 0px;
+  font-size: 14px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 100px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.formItem button:hover{
+      font-weight: bold;
+      color: #743030;
+      outline: #5e7572 solid 2px;    
+      box-shadow: 0px 4px 35px -5px #5e7572;
+      cursor: pointer;
+
+}
+
+#footer {
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+}
+
+#footer:hover {
+  color: #743030;
+}
+
+/* Utility Class */
+h1,
+h2,
+h3 {
+  font-family: "Albert Sans", sans-serif;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+hr {
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

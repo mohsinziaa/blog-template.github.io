@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myBlog</title>
+    <link rel="shortcut icon" href="images/myLogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="nav-left">
+        <span>myBlog</span>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutUs.html">About</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <form action="searchResults.html" method="get">
+          <input
+            type="text"
+            placeholder="Search Here"
+            name="searchFor"
+            required
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </div>
+    <hr style="margin-top: 0px" />
+
+    <div class="home-articles">
+      <h2>Search Results</h2>
+      <div class="article-box">
+        <div class="article-box-image">
+          <img src="images/covid19.jpg" alt="myBlog" />
+        </div>
+        <div class="article-box-text">
+          <a href="articleBlog.html"
+            ><h3>Causes Of Covid-19 and it's consequences</h3></a
+          >
+          <span>Author Name: Mohsin Zia</span>
+          <span>Published On: 14 July'2022</span>
+        </div>
+      </div>
+      <div class="article-box">
+        <div class="article-box-image">
+          <img src="images/childLabour.jpg" alt="myBlog" />
+        </div>
+        <div class="article-box-text">
+          <a href="articleBlog.html"><h3>Child Labour</h3></a>
+          <span>Author Name: Mohsin Zia</span>
+          <span>Published On: 14 July'2022</span>
+        </div>
+      </div>
+      <div class="article-box">
+        <div class="article-box-image">
+          <img src="images/religiousLiberty.jpg" alt="myBlog" />
+        </div>
+        <div class="article-box-text">
+          <a href="articleBlog.html"><h3>Religious Liberty</h3></a>
+          <span>Author Name: Mohsin Zia</span>
+          <span>Published On: 14 July'2022</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">Copyright &copy; myBlog.com</div>
+  </body>
+</html>
