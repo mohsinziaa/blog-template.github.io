@@ -1,0 +1,169 @@
+@media screen and (max-width: 1300px) {
+  .nav-left span {
+    font-size: 28px;
+  }
+  .nav-left ul {
+    margin-left: 70px;
+  }
+  .nav-left ul li a {
+    font-size: 19px;
+  }
+  .nav-left ul li {
+    margin: 0px 20px;
+  }
+  .nav-right input {
+    font-size: 12px;
+    width: 120px;
+  }
+  .nav-right .btn {
+    font-size: 12px;
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #navbar {
+    width: 90vw;
+  }
+  .nav-left span {
+    font-size: 26px;
+  }
+  .nav-left ul {
+    margin-left: 50px;
+  }
+  .nav-left ul li {
+    margin: 0px 15px;
+  }
+  .nav-left ul li a {
+    font-size: 19px;
+  }
+  .nav-right input {
+    text-align: center;
+    padding: 4px 0px;
+    font-size: 10px;
+    width: 100px;
+  }
+  .nav-right .btn {
+    font-size: 10px;
+    width: 65px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #navbar {
+    width: 97vw;
+    height: 75px;
+  }
+  .nav-left span {
+    font-size: 22px;
+    top: -1px;
+  }
+  .nav-left ul {
+    margin-left: 40px;
+  }
+  .nav-left ul li {
+    margin: 0px 13px;
+  }
+  .nav-left ul li a {
+    font-size: 17px;
+  }
+  .nav-right input {
+    text-align: center;
+    padding: 4px 0px;
+    font-size: 8px;
+    width: 80px;
+  }
+  .nav-right .btn {
+    font-size: 9px;
+    width: 55px;
+  }
+  hr {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navbar {
+    width: 99vw;
+    height: 65px;
+  }
+  .nav-left span {
+    font-size: 18px;
+    top: 1px;
+  }
+  .nav-left ul {
+    margin-left: 25px;
+  }
+  .nav-left ul li {
+    margin: 0px 11px;
+  }
+  .nav-left ul li a {
+    font-size: 13px;
+  }
+  .nav-right input {
+    padding: 3px 0px;
+    font-size: 7px;
+    margin-right: 0px;
+    width: 60px;
+  }
+  .nav-right .btn {
+    padding: 2.5px 0px;
+    font-size: 7px;
+    width: 45px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #navbar {
+    height: 60px;
+  }
+  .nav-left span {
+    font-size: 15px;
+    top: 0.5px;
+  }
+  .nav-left ul {
+    margin-left: 18px;
+  }
+  .nav-left ul li {
+    margin: 0px 7px;
+  }
+  .nav-left ul li a {
+    font-size: 11px;
+  }
+  .nav-right input {
+    padding: 2px 0px;
+    font-size: 6px;
+    width: 50px;
+  }
+  .nav-right .btn {
+    padding: 1.5px 0px;
+    font-size: 6px;
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .nav-left span {
+    font-size: 12px;
+    top: 2px;
+  }
+  .nav-left ul {
+    margin-left: 15px;
+  }
+  .nav-left ul li {
+    margin: 0px 6px;
+  }
+  .nav-left ul li a {
+    font-size: 8px;
+  }
+  .nav-right input {
+    padding: 1px 0px;
+    font-size: 5px;
+    width: 35px;
+  }
+  .nav-right .btn {
+    padding: 1px 0px;
+    font-size: 5px;
+    width: 25px;
+  }
+}
