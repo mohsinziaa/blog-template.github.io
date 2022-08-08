@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
+    <div class="upperNav">
+      <img src="images/upperNav.png" alt="" />
+    </div>
     <div id="navbar">
       <div class="nav-left">
         <span>myBlog</span>
@@ -34,23 +37,27 @@
     <hr style="margin-top: 0px" />
 
     <div class="formBox">
-      <form action="#" method="get">
+      <form action="formDetails.php" method="post">
         <h1>Contact Form</h1>
         <div class="formItem">
-          <input type="text" placeholder="Enter Your Name" />
+          <input type="text" name="name" placeholder="Enter Your Name" />
         </div>
         <div class="formItem">
-          <input type="email" placeholder="Enter Your Email" />
+          <input type="email" name="email" placeholder="Enter Your Email" />
         </div>
         <div class="formItem">
-          <input type="number" placeholder="Enter Your Contact Number" />
+          <input
+            type="number"
+            name="contact"
+            placeholder="Enter Your Contact Number"
+          />
         </div>
         <div class="formItem">
           <input type="date" style="text-transform: uppercase" />
         </div>
         <div class="formItem">
           <textarea
-            name=""
+            name="concerns"
             id=""
             cols="30"
             rows="7"
@@ -58,7 +65,7 @@
           ></textarea>
         </div>
         <div class="formItem">
-          <button type="submit" onclick="reset()">Submit</button>
+          <button type="submit">Submit</button>
         </div>
       </form>
     </div>
